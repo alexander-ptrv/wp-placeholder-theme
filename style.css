@@ -1,0 +1,48 @@
+/*
+Theme Name: WP Placeholder Theme
+Author: Alexander Petrov
+Author URI: https://ptrv.dev/
+Description: Placeholder theme to use with WP REST API
+Version: 1.0
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    text-decoration: none;
+    outline: none;
+}
+
+html {
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 62.5%;
+    font-weight: 400;
+    scroll-behavior: smooth;
+}
+
+body { background: #181C22; }
+
+.main-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 32px;
+}
+
+.main-wrapper__heading {
+    color: #FFD369;
+    font-size: 3.6rem;
+    font-weight: 900;
+    line-height: 125%;
+}
+
+.main-wrapper img {
+    display: block;
+    max-width: 100%;
+}
